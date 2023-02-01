@@ -10,7 +10,7 @@ public class AttackState : State
     private float _lastAttackTime;
     private Animator _animator;
 
-    void Start()
+    private void Start()
     {
         _animator = GetComponent<Animator>();
     }

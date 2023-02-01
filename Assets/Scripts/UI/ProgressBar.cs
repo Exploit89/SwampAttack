@@ -4,13 +4,13 @@ public class ProgressBar : Bar
 {
     [SerializeField] private Spawner _spawner;
 
-    void OnEnable()
+    private void OnEnable()
     {
         _spawner.EnemyCountChanged += OnValueChanged;
         Slider.value = 0;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         _spawner.EnemyCountChanged -= OnValueChanged;
     }

@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             _currentWeapon.Shoot(_shootPoint);
         }
@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
         _currentHealth -= damage;
         HealthChanged?.Invoke(_currentHealth, _health);
 
-        if(_currentHealth <= 0)
+        if (_currentHealth <= 0)
         {
             Destroy(gameObject);
         }
@@ -47,5 +47,11 @@ public class Player : MonoBehaviour
     public void AddMoney(int money)
     {
         Money += money;
+    }
+
+    public void BuyWeapon(Weapon weapon)
+    {
+        Money -= weapon.Price;
+        _weapons.Add(weapon);
     }
 }

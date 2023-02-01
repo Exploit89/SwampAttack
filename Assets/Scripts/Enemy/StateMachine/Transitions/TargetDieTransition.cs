@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TargetDieTransition : Transition
 {
-    void Update()
+    private void Update()
     {
         if (Target == null)
             NeedTransit = true;

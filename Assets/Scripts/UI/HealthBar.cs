@@ -4,13 +4,13 @@ public class HealthBar : Bar
 {
     [SerializeField] private Player _player;
 
-    void OnEnable()
+    private void OnEnable()
     {
         _player.HealthChanged += OnValueChanged;
         Slider.value = 1;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         _player.HealthChanged -= OnValueChanged;
     }
