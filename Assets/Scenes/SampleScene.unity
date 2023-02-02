@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2877,19 +2877,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 944501298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 944501300}
-        m_TargetAssemblyTypeName: ContinueButton, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &944501298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2941,6 +2929,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _menu: {fileID: 1817088788}
+  _continueButton: {fileID: 944501297}
+  _panel: {fileID: 959736117}
 --- !u!1 &950155938
 GameObject:
   m_ObjectHideFlags: 0
@@ -3526,7 +3516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4590,7 +4580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4620,19 +4610,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1507440601}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1507440603}
-        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1507440601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4684,6 +4662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _menu: {fileID: 1817088788}
+  _menuButton: {fileID: 1507440600}
+  _panel: {fileID: 959736117}
 --- !u!1 &1552589735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4737,7 +4717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4767,19 +4747,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1552589738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1552589740}
-        m_TargetAssemblyTypeName: ShopButton, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1552589738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4831,6 +4799,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _menu: {fileID: 1817088788}
+  _shopButton: {fileID: 1552589737}
+  _panel: {fileID: 1970865676}
 --- !u!1 &1572874337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,8 +5680,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ebca1af266cc0f489f280fc96c123b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shop: {fileID: 1970865676}
-  _menu: {fileID: 959736117}
 --- !u!1 &1828042322
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,19 +5763,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1828042325}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1828042327}
-        m_TargetAssemblyTypeName: ExitButton, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1828042325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5859,6 +5815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _menu: {fileID: 1817088788}
+  _exitButton: {fileID: 1828042324}
+  _panel: {fileID: 1970865676}
 --- !u!1 &1861242206
 GameObject:
   m_ObjectHideFlags: 0
