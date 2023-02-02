@@ -5,8 +5,8 @@ public class Menu : MonoBehaviour
     public void OpenPanel(GameObject panel)
     {
         panel.SetActive(true);
-        Debug.Log("1");
         Time.timeScale = 0;
+        Debug.Log("1");
     }
 
     public void ClosePanel(GameObject panel)
