@@ -2,17 +2,35 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-    public void OpenPanel(GameObject panel)
+    [SerializeField] private GameObject _shop;
+    [SerializeField] private GameObject _menu;
+
+    public void OpenMenu()
     {
-        panel.SetActive(true);
+        _menu.gameObject.SetActive(true);
         Time.timeScale = 0;
         Debug.Log("1");
     }
 
-    public void ClosePanel(GameObject panel)
+    public void CloseMenu()
     {
-        panel.SetActive(false);
+        _menu.SetActive(false);
         Time.timeScale = 1;
+        Debug.Log("0");
+    }
+
+    public void OpenShop()
+    {
+        _shop.gameObject.SetActive(true);
+        Time.timeScale = 0;
+        Debug.Log("1");
+    }
+
+    public void CloseShop()
+    {
+        _shop.SetActive(false);
+        Time.timeScale = 1;
+        Debug.Log("0");
     }
 
     public void Exit()
