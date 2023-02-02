@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9201207317192857701}
-  - component: {fileID: 9201207317192857700}
+  - component: {fileID: -7096575621151554367}
   m_Layer: 0
-  m_Name: Pistol2
+  m_Name: Shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9201207317192857700
+--- !u!114 &-7096575621151554367
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,11 +40,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 9201207317192857707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2e2d5a69950a374dae13a5071ba00c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ab8497b1f461c7418d71a599ac7aea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _label: stvol
-  _price: 0
-  _icon: {fileID: 21300000, guid: 791abfa8d36717c46af6b26a50d6a626, type: 3}
+  _label: Shotgun
+  _price: 2
+  _icon: {fileID: 21300000, guid: 15b7eb659a7d83b408039b8d57ca3304, type: 3}
   _isBuyed: 0
-  Bullet: {fileID: 0}
+  Bullet: {fileID: 7690482640570490588, guid: 5bdb819dab817c046984b7670ed3c2d1, type: 3}
+  ShotgunBullet: {fileID: 2000626033109008228, guid: 589f3aac3be6e9e41b9b8d3ac90300eb, type: 3}

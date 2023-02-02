@@ -8,6 +8,7 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] private bool _isBuyed = false;
 
     [SerializeField] protected Bullet Bullet;
+    [SerializeField] protected ShotgunBullet ShotgunBullet;
 
     public string Label => _label;
     public int Price => _price;
